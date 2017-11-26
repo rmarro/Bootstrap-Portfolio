@@ -9,8 +9,21 @@
     <link rel="stylesheet" href="https://bootswatch.com/3/yeti/bootstrap.min.css">
     <style>
 
+      html, body {
+        background-image: url("images/grey_weave.png")
+      }
+
+      .main_panel {
+        background: #ffffff;
+        border: 1px solid #dddddd;
+        margin-bottom: 20px;
+      }
+
       .navbar-brand {
         font-size: 30px;
+      }
+      .nav a {
+        font-size: 18px;
       }
 
       .page-header {
@@ -23,6 +36,15 @@
         height: auto;
       }
 
+      .main_panel a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      .main_panel p:hover {
+        background: #272727;
+      }
+
       p {
         padding: 10px;
         width: 100%;
@@ -30,13 +52,14 @@
         position: relative;
         bottom: 60px;
         text-align: center;
-        color: #ffffff;
-
       }
 
-      /*contact me panel*/
-       .panel {
-        margin-top: 25px;
+      /*connect with me panel*/
+       .panel-default .panel-heading {
+        background-color: #ffffff;
+      }
+      .panel-title {
+        font-weight: 500;
       }
       .panel-body a {
         text-decoration: none;
@@ -59,6 +82,7 @@
         text-align: center;
         padding-top: 11px;
         color: #ffffff;
+        font-size: 15px;
       }
 
     </style>
@@ -85,34 +109,34 @@
       <div class="row">
         
         <!--main panel column -->        
-        <div class="portfolio col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="portfolio col-xs-12 col-sm-12 col-md-8 col-lg-8 main_panel">
           <div class="page-header">
             <h1>Portfolio</h1>
           </div>
           <div class="row"> 
             <div class="col-md-6">
               <img class="img-thumbnail" src="http://placehold.it/150x150" alt="Placeholder">
-              <p>Project One</p>
+              <p><a href="#">Project One</a></p>
             </div>
             <div class="col-md-6">
               <img class="img-thumbnail" src="http://placehold.it/150x150" alt="Placeholder">
-              <p>Project Two</p>
-            </div>
-          </div>
-          <div class="row"> 
-            <div class="col-md-6">
-              <img class="img-thumbnail" src="http://placehold.it/150x150" alt="Placeholder">
-              <p>Project Three</p>
-            </div>
-            <div class="col-md-6">
-              <img class="img-thumbnail" src="http://placehold.it/150x150" alt="Placeholder">
-              <p>Project Four</p>
+              <p><a href="#">Project Two</a></p>
             </div>
           </div>
           <div class="row"> 
             <div class="col-md-6">
               <img class="img-thumbnail" src="http://placehold.it/150x150" alt="Placeholder">
-              <p>Project Five</p>
+              <p><a href="#">Project Three</a></p>
+            </div>
+            <div class="col-md-6">
+              <img class="img-thumbnail" src="http://placehold.it/150x150" alt="Placeholder">
+              <p><a href="#">Project Four</a></p>
+            </div>
+          </div>
+          <div class="row"> 
+            <div class="col-md-6">
+              <img class="img-thumbnail" src="http://placehold.it/150x150" alt="Placeholder">
+              <p><a href="#">Project Five</a></p>
             </div>
           </div>
         </div>
